@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this research code."
+title: "BGNN: Latent-Posterior Alignment research code"
+type: software
+version: 0.1.0
+repository-code: https://github.com/sukhoooon/BGNN
+authors:
+  - family-names: Choi
+    given-names: Suk Hoon
+  - family-names: Park
+    given-names: Damdae
+  - family-names: Choi
+    given-names: Junhyuk
+  - family-names: Jung
+    given-names: Hyein
+  - family-names: Kim
+    given-names: Changsoo
+  - family-names: Lee
+    given-names: Ung
+  - family-names: Kim
+    given-names: Kyeongsu
+preferred-citation:
+  type: article
+  title: "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers"
+  year: 2026
+  doi: 10.48550/arXiv.2608.20758
+  url: https://arxiv.org/abs/2608.20758
+  authors:
+    - family-names: Choi
+      given-names: Suk Hoon
+    - family-names: Park
+      given-names: Damdae
+    - family-names: Choi
+      given-names: Junhyuk
+    - family-names: Jung
+      given-names: Hyein
+    - family-names: Kim
+      given-names: Changsoo
+    - family-names: Lee
+      given-names: Ung
+    - family-names: Kim
+      given-names: Kyeongsu

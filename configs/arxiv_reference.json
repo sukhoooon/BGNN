@@ -1,0 +1,72 @@
+{
+  "source": "https://arxiv.org/abs/2608.20758",
+  "version": "v1",
+  "executable": false,
+  "reason": "Reference only. Unresolved scientific discrepancies are not silently changed.",
+  "n_runs": 30,
+  "epochs": 500,
+  "dropout": 0.3,
+  "early_stopping_patience": 60,
+  "test_fraction": 0.2,
+  "batch_sizes": [
+    64,
+    256,
+    1024
+  ],
+  "feature_elements": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    15,
+    16,
+    17,
+    35,
+    53
+  ],
+  "regularization_columns": [
+    "L1",
+    "L2",
+    "anti_alignment",
+    "AGL"
+  ],
+  "regularization": {
+    "bp": [
+      0.05,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "mp": [
+      0.3,
+      1.5,
+      0.5,
+      0.02
+    ],
+    "logP": [
+      0.05,
+      0.3,
+      0.05,
+      0.02
+    ],
+    "logPvap": [
+      0.02,
+      0.1,
+      0.01,
+      0.005
+    ],
+    "H_bonds": [
+      0.02,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "G_bonds": [
+      0.02,
+      0.1,
+      0.05,
+      0.02
+    ]
+  }
+}
